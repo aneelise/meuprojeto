@@ -29,7 +29,7 @@ export default function Target() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block px-4 py-2 bg-[#FFF8F3] rounded-full border border-[#8B4357]/20 mb-6">
-            <span className="text-sm text-[#6B1A3D] font-medium">Para Quem É</span>
+            <span className="text-sm text-[#6B1A3D] font-medium">Para quem é?</span>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#6B1A3D] mb-6">
             Ideal para quem valoriza<br />

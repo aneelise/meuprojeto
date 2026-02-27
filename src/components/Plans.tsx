@@ -2,33 +2,47 @@ import { Check, Sparkles } from 'lucide-react';
 
 const plans = [
   {
-    name: 'Essencial',
-    description: 'Ideal para quem está começando e precisa de uma presença online profissional de forma simples e elegante.',
+    name: 'Pacote Landing Page',
+    description: 'Ideal para quem quer presença digital rápida e objetiva.',
     features: [
-      'Página única (one page)',
-      'Design responsivo',
-      'Contato direto pelo WhatsApp',
-      'SEO básico',
-      'Entrega otimizada',
-      'Formulário de contato',
-      'Até 3 seções personalizadas'
+      'Página única',
+      'Design responsivo e alinhado à identidade visual',
+      'Formulário de contato simples',
+      'Entrega otimizada e performance básica',
+      'Integração com redes sociais', 
+      'Registro de domínio incluso (.com.br)',
+      '1 revisão incluída'
     ],
     highlight: false
   },
   {
-    name: 'Profissional',
+    name: 'Pacote Profissional',
     description: 'Para quem busca uma presença digital completa e estratégica',
     features: [
-      'Até 5 páginas personalizadas',
+      'Até 5 páginas ou mais conforme necessidade',
       'Estrutura estratégica alinhada à sua marca',
       'Formulário de contato avançado',
-      'SEO avançado',
-      'Performance otimizada',
+      'Entrega otimizada e performance aprimorada',
       'Suporte pós-entrega (30 dias)',
-      'Integração com redes sociais',
-      'Até 2 revisões incluídas'
+      'Integração com WhatsApp e redes sociais',
+      'Registro de domínio incluso (.com.br)',
+      'Até 2 revisões inclusas'
     ],
     highlight: true
+  },
+   {
+    name: 'Pacote Portfólio',
+    description: 'Perfeito para profissionais autônomos que querem mostrar trabalhos e serviços.',
+    features: [
+      'Até 3 páginas personalizadas',
+      'Design alinhado à identidade visual',
+      'Galeria ou apresentação de trabalhos',
+      'Formulário de contato simples',
+      'Entrega otimizada e performance básica',
+      'Registro de domínio incluso (.com.br)',
+      '1 revisão incluída'
+    ],
+    highlight: false
   }
 ];
 
@@ -120,7 +134,7 @@ export default function Plans() {
 
         <div className="mt-12 text-center bg-[#FFF8F3] p-6 rounded-2xl border border-[#8B4357]/20 max-w-4xl mx-auto">
           <p className="text-[#4A4A4A] leading-relaxed">
-            <span className="font-bold text-[#6B1A3D]">Valores personalizados:</span> Os investimentos são definidos de acordo com a complexidade, funcionalidades específicas e necessidades estratégicas do seu projeto. Entre em contato para receber uma proposta detalhada.
+            <span className="font-bold text-[#6B1A3D]">Valores personalizados:</span> Os investimentos são definidos de acordo com a complexidade, funcionalidades específicas e necessidades do seu projeto. O valor já inclui o registro do domínio (.com.br).<br /> Entre em contato para receber uma proposta detalhada.
           </p>
         </div>
       </div>
