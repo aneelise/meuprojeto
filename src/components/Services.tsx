@@ -9,7 +9,11 @@ const services = [
       'Ideal para lançamentos e campanhas',
       'Foco total em uma oferta específica',
       'Otimização para vendas',
-      'Estrutura pensada para conversão'
+      'Estrutura pensada para conversão',
+      'Suporte na configuração de domínio e hospedagem (contratação por conta do cliente)',
+      'Entrega otimizada e performance aprimorada',
+      'Integração com redes sociais', 
+    
     ]
   },
   {
@@ -19,8 +23,11 @@ const services = [
     benefits: [
       'Apresentação completa da empresa e serviços',
       'Design moderno e sofisticado, alinhado à sua identidade',
-      'Preparado para aparecer nas pesquisas (SEO básico incluído)',
-      'Fácil de atualizar e gerenciar conteúdo'
+      'Fácil de atualizar e gerenciar conteúdo',
+      'Suporte na configuração de domínio e hospedagem (contratação por conta do cliente)',
+      'Entrega otimizada e performance aprimorada',
+      'Integração com redes sociais', 
+     
     ]
   },
   {
@@ -31,7 +38,11 @@ const services = [
       'Mostra quem você é e o que faz de forma clara',
       'Destaque para sua experiência e serviços',
       'Design único e personalizado',
-      'Fácil atualização'
+      'Fácil atualização',
+      'Suporte na configuração de domínio e hospedagem (contratação por conta do cliente)',
+      'Entrega otimizada e performance aprimorada',
+      'Integração com redes sociais', 
+    
     ]
   }
 ];
@@ -45,9 +56,9 @@ export default function Services() {
             <span className="text-sm text-[#6B1A3D] font-medium">Serviços</span>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#6B1A3D] mb-6">
-            Soluções digitais que<br />
+            O que desenvolvo <br />
             <span className="bg-gradient-to-r from-[#6B1A3D] to-[#8B4357] bg-clip-text text-transparent">
-              transformam sua marca
+              para sua marca
             </span>
           </h2>
           <p className="text-lg text-[#4A4A4A] max-w-2xl mx-auto">
@@ -109,6 +120,16 @@ export default function Services() {
           </div>
         </div>
       </div>
+
+               <div className="mt-12 text-center bg-[#FFF8F3] p-6 rounded-2xl border border-[#8B4357]/20 max-w-4xl mx-auto">
+          <p className="text-[#4A4A4A] leading-relaxed">
+            <span className="font-bold text-[#6B1A3D]">Valores personalizados:</span> Os investimentos são definidos de acordo com a complexidade, funcionalidades específicas e necessidades do seu projeto.<b> A contratação do domínio e hospedagem é realizada pelo cliente, garantindo autonomia, com meu suporte completo na configuração e publicação do site. </b> <br /> Entre em contato para receber uma proposta detalhada.
+          </p>
+        </div>
+
+
+
+
     </section>
   );
 }

@@ -41,7 +41,7 @@ export default function Process() {
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-6">
-            <span className="text-sm font-medium">Como funciona?</span>
+            <span className="text-sm font-medium">Como funciona o processo?</span>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
             Do conceito à execução, < br />  cada detalhe pensado < br /> para destacar sua marca

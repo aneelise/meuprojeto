@@ -29,9 +29,6 @@ export default function Header() {
             <button onClick={() => scrollToSection('servicos')} className="text-white rounded-full hover:bg-[#8B4357] hover:text-[#8B4357] transition-colors">
               Serviços
             </button>
-            <button onClick={() => scrollToSection('planos')} className="text-white rounded-full hover:bg-[#8B4357] hover:text-[#8B4357] transition-colors">
-              Planos
-            </button>
             <button onClick={() => scrollToSection('processo')} className="text-white rounded-full hover:bg-[#8B4357] hover:text-[#8B4357] transition-colors">
               Como funciona?
             </button>

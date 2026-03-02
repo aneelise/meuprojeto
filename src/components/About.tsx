@@ -15,7 +15,7 @@ export default function About() {
             </h2>
 
             <p className="text-lg text-[#4A4A4A] leading-relaxed">
-              Sou desenvolvedora frontend especializada em criar experiências digitais que supera o visual. Um site profissional é muito mais do que código e design, é uma ferramenta estratégica de posicionamento.
+              Sou desenvolvedora frontend especializada em criar experiências digitais que superam o visual. Um site profissional é muito mais do que código e design, é uma ferramenta estratégica de posicionamento.
             </p>
 
             <p className="text-lg text-[#4A4A4A] leading-relaxed">

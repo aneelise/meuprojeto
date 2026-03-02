@@ -18,7 +18,7 @@ export default function Hero() {
           <span className="text-sm text-[#6B1A3D] font-medium">Desenvolvimento Web Personalizado</span>
         </div>
 
-     <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-semibold text-[#6B1A3D] mb-6 animate-fade-in-up leading-snug">
+     <h1 className="font-serif text-3xl md:text-5xl lg:text-5xl font-semibold text-[#6B1A3D] mb-6 animate-fade-in-up leading-snug">
            Seu negócio merece um site<br />
            que transmita
          <span className="bg-gradient-to-r from-[#6B1A3D] to-[#8B4357] bg-clip-text text-transparent">
