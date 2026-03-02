@@ -1,6 +1,33 @@
 import { Mail, MessageCircle, Instagram, Send } from 'lucide-react';
 
 export default function Contact() {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+
+  const form = e.currentTarget;
+
+  const name = (form.elements.namedItem("name") as HTMLInputElement)?.value;
+  const phone = (form.elements.namedItem("phone") as HTMLInputElement)?.value;
+  const project = (form.elements.namedItem("project") as HTMLSelectElement)?.value;
+  const message = (form.elements.namedItem("message") as HTMLTextAreaElement)?.value;
+
+  const text = `
+Olá, Ane! Vim pelo site, gostaria de saber mais sobre seu trabalho.
+
+Nome: ${name}
+WhatsApp: ${phone}
+Projeto: ${project}
+
+Mensagem:
+${message}
+  `;
+
+  const whatsappNumber = "5543998231510"; // número com DDI + DDD
+
+  const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+
+  window.open(url, "_blank");
+};
   return (
     <section id="contato" className="py-24 bg-gradient-to-br from-[#FFF8F3] to-[#F5E6DC]">
       <div className="max-w-7xl mx-auto px-6">
@@ -21,7 +48,9 @@ export default function Contact() {
           </div>
 
           <div className="bg-white p-8 md:p-12 rounded-3xl shadow-2xl border border-[#8B4357]/10">
-            <form className="space-y-6">
+          
+            <form onSubmit={handleSubmit} className="space-y-6">
+      
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-[#6B1A3D] mb-2">
@@ -36,28 +65,16 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-[#6B1A3D] mb-2">
-                    E-mail
+                  <label htmlFor="phone" className="block text-sm font-medium text-[#6B1A3D] mb-2">
+                    WhatsApp
                   </label>
                   <input
-                    type="email"
-                    id="email"
-                    className="w-full px-4 py-3 rounded-lg border border-[#8B4357]/20 focus:border-[#6B1A3D] focus:ring-2 focus:ring-[#6B1A3D]/20 outline-none transition-all"
-                    placeholder="seu@email.com"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-[#6B1A3D] mb-2">
-                  WhatsApp
-                </label>
-                <input
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-[#8B4357]/20 focus:border-[#6B1A3D] focus:ring-2 focus:ring-[#6B1A3D]/20 outline-none transition-all"
                   placeholder="(00) 00000-0000"
-                />
+                  />
+                </div>
               </div>
 
               <div>
@@ -95,8 +112,11 @@ export default function Contact() {
                 Enviar Mensagem
                 <Send size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
+
             </form>
           </div>
+
+          
 
           <div className="mt-12 grid md:grid-cols-3 gap-6">
             <a

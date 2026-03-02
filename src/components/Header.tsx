@@ -13,24 +13,26 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 w-full bg-[#FFF8F3]/95 backdrop-blur-sm z-50 border-b border-[#8B4357]/10">
-      <nav className="max-w-7xl mx-auto px-6 py-4">
+    <header className="fixed top-0 w-full bg-[#6B1A3D]/95 backdrop-blur-sm z-50 border-b border-[#8B4357]/10">
+      <nav className="max-w-7xl mx-auto px-7 py-5">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-serif font-bold text-[#6B1A3D]">
-            Ane Elise
-          </div>
+          <img 
+              src="/logo1.png" 
+                 alt="Vellum Logo" 
+                 className="h-14 w-auto"
+               />
 
           <div className="hidden md:flex items-center gap-8">
-            <button onClick={() => scrollToSection('sobre')} className="text-[#2D2D2D] hover:text-[#8B4357] transition-colors">
+            <button onClick={() => scrollToSection('sobre')} className="text-white rounded-full hover:bg-[#8B4357] hover:text-[#8B4357] transition-colors">
               Sobre
             </button>
-            <button onClick={() => scrollToSection('servicos')} className="text-[#2D2D2D] hover:text-[#8B4357] transition-colors">
+            <button onClick={() => scrollToSection('servicos')} className="text-white rounded-full hover:bg-[#8B4357] hover:text-[#8B4357] transition-colors">
               Serviços
             </button>
-            <button onClick={() => scrollToSection('planos')} className="text-[#2D2D2D] hover:text-[#8B4357] transition-colors">
+            <button onClick={() => scrollToSection('planos')} className="text-white rounded-full hover:bg-[#8B4357] hover:text-[#8B4357] transition-colors">
               Planos
             </button>
-            <button onClick={() => scrollToSection('processo')} className="text-[#2D2D2D] hover:text-[#8B4357] transition-colors">
+            <button onClick={() => scrollToSection('processo')} className="text-white rounded-full hover:bg-[#8B4357] hover:text-[#8B4357] transition-colors">
               Como funciona?
             </button>
             <button
