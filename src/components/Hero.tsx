@@ -27,7 +27,7 @@ export default function Hero() {
       </h1>
 
         <p className="text-lg md:text-xl text-[#4A4A4A] max-w-3xl mx-auto mb-12 animate-fade-in-up leading-relaxed" style={{ animationDelay: '0.2s' }}>
-          Desenvolvimento sites profissionais e landing pages estratégicas para empreendedores que desejam elevar sua marca com elegância no digital.
+          Desenvolvimento de sites profissionais e landing pages estratégicas para empreendedores que desejam elevar sua marca com elegância no digital.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
