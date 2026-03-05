@@ -17,7 +17,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-7 py-5">
         <div className="flex items-center justify-between">
           <img 
-              src="/logo1.svg" 
+              src="/logo4.svg" 
                  alt="Vellum Logo" 
                  className="h-14 w-auto"
                />
